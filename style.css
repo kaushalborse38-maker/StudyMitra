@@ -1,0 +1,40 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #f8fafc;
+}
+
+.glass-nav {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(10px);
+}
+
+.dropzone {
+    border: 2px dashed #ccc;
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropzone:hover {
+    border-color: #2563eb;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#loading-screen {
+    position: fixed;
+    inset: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
