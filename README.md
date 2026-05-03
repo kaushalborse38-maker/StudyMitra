@@ -6,7 +6,7 @@ STUDYMITRA is an AI-driven web application that helps students analyze previous 
 
 Upload multiple PDFs, and the system extracts questions, identifies key topics, analyzes patterns, and suggests how to prioritize your preparation.
 
-Video Link:- 
+Video Link:- https://youtu.be/vKTN6ZwjEgs
 
 🚀 Features
 📂 Multi-PDF Upload
