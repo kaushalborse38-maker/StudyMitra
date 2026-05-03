@@ -1,5 +1,6 @@
 # 📚 STUDYMITRA — AI-Powered Exam Analysis Platform
 
+https://study-mitra-sooty.vercel.app/#about-section
 STUDYMITRA is an AI-driven web application that helps students analyze previous year question papers and generate a smart, data-driven study plan.
 
 Upload multiple PDFs, and the system extracts questions, identifies key topics, analyzes patterns, and suggests how to prioritize your preparation.
