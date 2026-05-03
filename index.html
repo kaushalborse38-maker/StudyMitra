@@ -120,6 +120,10 @@
         ::-webkit-scrollbar { width: 10px; }
         ::-webkit-scrollbar-track { background: #f1f5f9; }
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+
+        .about-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+        }
     </style>
 </head>
 <body class="selection:bg-blue-100 selection:text-blue-900">
@@ -133,8 +137,9 @@
                      class="w-10 h-10 rounded-xl shadow-sm">
                 <span class="text-2xl font-extrabold tracking-tight text-slate-900 uppercase">Study<span class="text-blue-600">Mitra</span></span>
             </div>
-            <div class="hidden md:flex items-center space-x-8">
-                <span class="text-[10px] font-black uppercase tracking-widest text-slate-400">Analysis Engine v2.5</span>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#about-section" class="text-xs font-bold uppercase tracking-widest text-slate-500 hover:text-blue-600 transition-colors">About Developer</a>
+                <div class="h-4 w-px bg-slate-200"></div>
                 <div class="flex items-center space-x-2 bg-emerald-50 px-3 py-1 rounded-full">
                     <div class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></div>
                     <span class="text-[10px] font-black text-emerald-600 uppercase tracking-widest">Active</span>
@@ -183,6 +188,93 @@
                 </button>
             </div>
         </div>
+
+        <!-- ABOUT DEVELOPER SECTION -->
+        <section id="about-section" class="mt-40 fade-in about-gradient p-12 rounded-[3rem] border border-slate-200 shadow-sm">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-col md:flex-row items-start md:items-center justify-between mb-12 gap-6">
+                    <div>
+                        <h2 class="text-4xl font-black text-slate-900 tracking-tight mb-2">Kaushal Borse</h2>
+                        <p class="text-blue-600 font-extrabold text-xs uppercase tracking-[0.2em]">Automation Developer | AI Enthusiast</p>
+                    </div>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="mailto:kaushalborse38@gmail.com" class="p-3 bg-white border border-slate-200 rounded-xl text-slate-600 hover:text-blue-600 transition-colors shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/kaushal-borse-91b5b4323" target="_blank" class="p-3 bg-white border border-slate-200 rounded-xl text-slate-600 hover:text-blue-600 transition-colors shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                        <div class="bg-blue-600 text-white px-4 py-3 rounded-xl text-xs font-bold shadow-lg shadow-blue-200">+91 9765773828</div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="space-y-8">
+                        <div>
+                            <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">Profile</h4>
+                            <p class="text-slate-600 leading-relaxed font-medium">
+                                Computer Engineering student with a strong interest in Automation, AI, and Backend Development. 
+                                Experienced in building workflow automation systems, web applications, and AI-based tools that 
+                                solve real-world problems. Skilled in JavaScript, Node.js, and MySQL, with a focus on improving 
+                                efficiency through technology.
+                            </p>
+                        </div>
+                        <div>
+                            <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">Education</h4>
+                            <div class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
+                                <p class="text-blue-600 font-bold text-xs mb-1">2024 – 2028 (Expected)</p>
+                                <h5 class="font-bold text-slate-900">SSBT College of Engineering & Technology, Jalgaon</h5>
+                                <p class="text-slate-500 text-sm">Bachelor of Engineering (Computer Engineering)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-4">Core Skills</h4>
+                        <div class="grid grid-cols-1 gap-4">
+                            <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Development</p>
+                                <p class="text-sm font-bold text-slate-700">JavaScript, Node.js, HTML/CSS, C Programming</p>
+                            </div>
+                            <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Infrastructure & Data</p>
+                                <p class="text-sm font-bold text-slate-700">MySQL, CRUD, Git, n8n Automation, Vercel</p>
+                            </div>
+                            <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Specializations</p>
+                                <p class="text-sm font-bold text-slate-700">Workflow Automation, AI-Driven Solutions, Content Creation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12">
+                    <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-6">Key Projects</h4>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="card-premium p-8">
+                            <h5 class="font-bold text-slate-900 mb-2">Automation Workflows</h5>
+                            <p class="text-sm text-slate-500 leading-relaxed mb-4">Designed and implemented automated workflows using APIs and tools to streamline repetitive business tasks and customer order systems.</p>
+                            <div class="flex space-x-2">
+                                <span class="text-[9px] bg-slate-100 px-2 py-1 rounded-md font-bold text-slate-500 uppercase tracking-wider">n8n</span>
+                                <span class="text-[9px] bg-slate-100 px-2 py-1 rounded-md font-bold text-slate-500 uppercase tracking-wider">APIs</span>
+                            </div>
+                        </div>
+                        <div class="card-premium p-8">
+                            <h5 class="font-bold text-slate-900 mb-2">Thumbnailify</h5>
+                            <p class="text-sm text-slate-500 leading-relaxed mb-4">AI-driven thumbnail generator designed to help content creators increase CTR and engagement with minimal manual effort.</p>
+                            <div class="flex space-x-2">
+                                <span class="text-[9px] bg-blue-50 px-2 py-1 rounded-md font-bold text-blue-600 uppercase tracking-wider">AI</span>
+                                <span class="text-[9px] bg-blue-50 px-2 py-1 rounded-md font-bold text-blue-600 uppercase tracking-wider">Product</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-12 text-center pt-8 border-t border-slate-200">
+                    <p class="text-xs text-slate-400 font-bold uppercase tracking-widest">Proudly built in Maharashtra, India</p>
+                </div>
+            </div>
+        </section>
 
         <div id="error-message" class="mt-8 p-6 bg-rose-50 text-rose-600 rounded-3xl text-center hidden font-bold border border-rose-100"></div>
     </main>
